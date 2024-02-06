@@ -1,0 +1,17 @@
+1. justify-content: The justify-content property aligns the flexible container's items when the items do not use all available space on the main-axis (horizontally).
+
+2. align-items: Using the align-items property in a flexbox container, the flexbox items are aligned on the cross axis, which is vertical by default (opposite of flex-direction).
+
+3. gap: The CSS Flex Gap property, also known as gap, is a property that adds spacing between flex items in a flex container. It's a shorthand property that sets the values for the row-gap and column-gap properties. These properties set the spacing between rows and columns of flex items. 
+    Here are some examples of gap:
+        gap: 0
+        gap: 10%
+        gap: 1em
+        gap: 10px 20px
+        gap: calc(20px + 10%) 
+
+4. flex-direction: flexDirection controls the direction in which the children of a node are laid out. This is also referred to as the main axis. The cross axis is the axis perpendicular to the main axis, or the axis which the wrapping lines are laid out in. column (default value) Align children from top to bottom.
+    The flex-direction property can take one of four values: row, column, row-reverse, column-reverse. 
+
+5. flex-wrap: The flex-wrap property is a sub-property of the Flexible Box Layout Module in CSS. It controls whether flex items are forced to stay on one line or allowed to wrap onto multiple lines. The flex-wrap property also controls the direction of the cross-axis, which determines the direction new lines are stacked in. 
+    The default value for flex-wrap is "nowrap", which forces flexible elements to be laid out in a single line. The value "wrap" allows the elements to break into multiple lines. 

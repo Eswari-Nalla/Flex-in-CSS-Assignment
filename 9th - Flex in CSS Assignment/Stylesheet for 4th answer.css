@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+    width: 95vw;
+}
+
+.pricingsection {
+    font-family: "Nunito", sans-serif;
+    width: 962px;
+    height: 427px;
+    padding: 32px 48px;
+    background-color: #f4f2fd;
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.plan {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 262px;
+    height: 363px;
+    border-radius: 8px;
+    padding: 32px 0 32px 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.basic {
+    background-color: #202842;
+    color: white;
+}
+
+.price {
+    font-weight: normal;
+}
+
+.priceoptions {
+    list-style: none;
+}
+
+.priceoptions li {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+}
+
+.subscribe {
+    padding: 10px;
+    border-radius: 20px;
+    width: 150px;
+    margin-top: 20px;
+}
+
+.subscribenow {
+    background-color: #202842;
+    color: white;
+}

@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding-top: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+.irctcbookingpage {
+    display: flex;
+    height: 95vh;
+    font-family: "Inter", sans-serif;
+}
+
+/* Designing for Page */
+
+.bookingpage {
+    width: 60%;
+    padding: 30px 80px 0 80px;
+}
+
+/* Designing for Header */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Designing for Logo */
+
+.bookingpagelogo img {
+    width: 81px;
+    height: 81px;
+}
+
+/* Designing for Booking Page Options */
+
+.bookingpageoptions {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.bookingpageoptions ul {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    align-self: flex-end;
+    list-style: none;
+}
+
+.bookingpageoptions ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.bookingpagebuttons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.bookingpagebuttons button {
+    padding: 5px 15px;
+    background-color: transparent;
+    font-size: small;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.bookingpagebuttons button:first-child {
+    background-color: orange;
+    color: white;
+    border: 1px solid orange;
+}
+
+/* Designing for Body section */
+
+/* Designing for Indian Railways section start*/
+
+.indianrailways {
+    height: 120px;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 0;
+    margin-bottom: 0;
+}
+
+.indianrailways h4 {
+    display: inline;
+    font-size: large;
+}
+
+.indianrailways h4:first-child {
+    color: #01bb0a;
+}
+
+.indianrailways h4:nth-child(2) {
+    color: #fb792b;
+}
+
+.indianrailways h4:nth-child(3) {
+    color: #213d77;
+}
+
+.indianrailways div {
+    display: flex;
+    gap: 10px;
+}
+/* Designing for Indian Railways section End */
+
+/* Booking Buttons section start */
+
+.bookticketbuttons {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.bookticketbuttons button {
+    border: 1px solid gray;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 140px;
+    cursor: pointer;
+}
+
+.bookticketbuttons button:first-child {
+    background-color: #213d77;
+    color: white;
+    border: 1px solid #213d77;
+}
+
+.bookticketbuttons button:nth-child(2) {
+    background-color: transparent;
+    width: 120px;
+}
+
+.bookticketbuttons button:nth-child(3) {
+    background-color: transparent;
+    width: 160px;
+}
+
+/* Booking Buttons section End */
+
+/* Styling for From and To Station Details Start */
+
+.journeydetails {
+    height: 200px;
+}
+
+.fromandtostationdetails, .dateclassandseattypedetails {
+    margin-top: 50px;
+    height: 80px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.fromlogoandstationdetails, .tologoandstationdetails, .datedetails, .classdetails, .seattypedetails {
+    width: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.fromstationdetails, .tostationdetails, .date, .class, .seattype {
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.fromstationdetails p:first-child, .tologoandstationdetails p:first-child, .date p:first-child, .class p:first-child, .seattype p:first-child {
+    font-size: small;
+    opacity: 80%;
+    display: flex;
+    align-items: center;
+}
+
+.fromstationdetails p:nth-child(2), .tologoandstationdetails p:nth-child(2), .date p:nth-child(2), .class p:nth-child(2), .seattype p:nth-child(2) {
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.fromstationdetails p:nth-child(3), .tologoandstationdetails p:nth-child(3), .date p:nth-child(3), .class p:nth-child(3), .seattype p:nth-child(3) {
+    font-size: x-small;
+    opacity: 80%;
+}
+
+/* Styling for From and To Station Details End */
+
+/* Styling for Search Button */
+
+.search {
+    margin-top: 50px;
+    padding: 5px;
+    background-color: #01BB0A;
+    color: white;
+    height: 50px;
+    width: 100%;
+    border-radius: 10px;
+    font-size: large;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.search img {
+    height: 20px;
+    width: 30px;
+}
+
+/* Designing for Train Image */
+
+.trainimage {
+    width: 40%;
+}
+
+.trainimage img {
+    width: 100%;
+    height: 100%;
+}
